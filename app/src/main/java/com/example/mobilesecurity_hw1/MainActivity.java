@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
             } catch (Settings.SettingNotFoundException e) {
                 throw new RuntimeException(e);
             }
+
             int roundedBrightnessLvl = (int) ((double) oldBrightness / 255 * 100);
 
             // get device audio mode
@@ -63,15 +64,15 @@ public class MainActivity extends AppCompatActivity {
             // check if device is connected to wifi
             WifiManager wifiManager = (WifiManager) getApplicationContext().getSystemService(WIFI_SERVICE);
 
-            Log.d("CHECK PASSWORD","ringtone mode "+(am.getRingerMode() == AudioManager.RINGER_MODE_VIBRATE));
-            Log.d("CHECK PASSWORD","rounded BrightnessLvl "+(roundedBrightnessLvl == 100));
-            Log.d("CHECK PASSWORD","text entered "+(main_TXT_password.getEditableText().length() > 0));
+            Log.d("CHECK PASSWORD","is ringtone mode vibrate? "+(am.getRingerMode() == AudioManager.RINGER_MODE_VIBRATE));
+            Log.d("CHECK PASSWORD","is text entered? "+(main_TXT_password.getEditableText().length() > 0));
             Log.d("CHECK PASSWORD", "is wifi connected?" +(wifiManager.isWifiEnabled() ? "yes" : "no") );
+            Log.d("CHECK PASSWORD","is lowest brightness Lvl? "+(roundedBrightnessLvl == 0));
 
             if(am.getRingerMode() == AudioManager.RINGER_MODE_VIBRATE &&
-                    roundedBrightnessLvl == 100 &&
                     main_TXT_password.getEditableText().length() > 0 &&
-                    wifiManager.isWifiEnabled()){
+                    wifiManager.isWifiEnabled() &&
+                    roundedBrightnessLvl == 0){
                 String strPassword = main_TXT_password.getEditableText().toString();
                 if (strPassword.equals(battery3times.toString())) {
                     main_LBL_guess.setText(R.string.success);
