@@ -19,7 +19,3 @@ Only if all conditions are met - a SUCCESS label and a matching notification wil
 ## Technology Stack
 
 - **Frontend:** Java
-
-![Start.jpeg](..%2F..%2FOneDrive%20-%20Afeka%20College%20Of%20Engineering%2F%3F%3F%3F%20%3F%2F%3F%3F%3F%3F%3F%20%3F%2F%3F%3F%3F%3F%3F%20%3F%3F%3F%3F%3F%3F%2F%3F%3F%3F%3F%201%2FStart.jpeg)
-![Success.jpeg](..%2F..%2FOneDrive%20-%20Afeka%20College%20Of%20Engineering%2F%3F%3F%3F%20%3F%2F%3F%3F%3F%3F%3F%20%3F%2F%3F%3F%3F%3F%3F%20%3F%3F%3F%3F%3F%3F%2F%3F%3F%3F%3F%201%2FSuccess.jpeg)
-![TryAgain.jpeg](..%2F..%2FOneDrive%20-%20Afeka%20College%20Of%20Engineering%2F%3F%3F%3F%20%3F%2F%3F%3F%3F%3F%3F%20%3F%2F%3F%3F%3F%3F%3F%20%3F%3F%3F%3F%3F%3F%2F%3F%3F%3F%3F%201%2FTryAgain.jpeg)
