@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mobile Security - HW1</string>
+    <string name="success">SUCCESS!!</string>
+    <string name="try_again">Try again</string>
+    <string name="enter">ENTER</string>
+    <string name="guess">GUESS</string>
+    <string name="Instructions">Guess the code and the conditions to enter (;</string>
+    <string name="password">password</string>
+</resources>
