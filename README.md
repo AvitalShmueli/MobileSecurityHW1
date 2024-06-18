@@ -4,7 +4,6 @@ Home Assignment Exercise for Mobile Security course, in Afeka - the academic col
 of Engineering in Tel Aviv.
 
 ## Overview
-![Start](https://github.com/AvitalShmueli/MobileSecurityHW1/assets/158744805/ab61766b-6207-4787-99f0-1a86bc70e980)
 
 The application contains one screen that includes a text input for a password and an "ENTER" button.
 The user should guess the password and other conditions in order to enter the app.
@@ -20,3 +19,9 @@ Only if all conditions are met - a SUCCESS label and a matching notification wil
 ## Technology Stack
 
 - **Frontend:** Java
+
+<div class="row">
+<kbd><img  src="https://github.com/AvitalShmueli/MobileSecurityHW1/assets/158744805/ab61766b-6207-4787-99f0-1a86bc70e980" alt="Start"  style="height:500px;"/></kbd> 
+<kbd><img  src="https://github.com/AvitalShmueli/MobileSecurityHW1/assets/158744805/3f84e418-e5c1-4a71-98f7-771b75fb3e00" alt="Try Again"  style="height:500px;"/></kbd>   
+<kbd><img  src="https://github.com/AvitalShmueli/MobileSecurityHW1/assets/158744805/ca8a6d58-abfa-46d7-af87-864b1ad0170c" alt="Success"  style="height:500px;"/></kbd>
+</div>
