@@ -4,6 +4,7 @@ Home Assignment Exercise for Mobile Security course, in Afeka - the academic col
 of Engineering in Tel Aviv.
 
 ## Overview
+![Start](https://github.com/AvitalShmueli/MobileSecurityHW1/assets/158744805/ab61766b-6207-4787-99f0-1a86bc70e980)
 
 The application contains one screen that includes a text input for a password and an "ENTER" button.
 The user should guess the password and other conditions in order to enter the app.
